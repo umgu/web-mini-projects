@@ -1,0 +1,50 @@
+#home {
+    
+    padding: 0px 10px;
+}
+
+#home h1{
+    padding: 5px 0px;
+    font-size: 40px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+
+#clients{
+    
+    flex-wrap: wrap;
+}
+
+.client-item{
+    padding: 5px 34px;
+}
+
+#clients img{
+    height: 110px;
+}
+
+#contact-box form{
+    width:60%;
+}
+
+.btn{
+    padding: 3px 10px;
+    font-size: 1rem;
+    margin: 10px;
+    
+}
+
+
+/* utility classes */
+.h_primary{
+    font-size: 3rem;
+    padding: 8px;
+
+}
+
+.h_secondary{
+    font-size: 1.8rem;
+}
