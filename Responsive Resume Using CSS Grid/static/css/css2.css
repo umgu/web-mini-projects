@@ -1,0 +1,7 @@
+.main-content {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.right-section {
+    grid-column: span 1;
+}

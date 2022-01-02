@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: grid;
+    background-color: red;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.left-section {
+    background-color: rgb(29, 27, 27);
+    /* height: 500px; */
+    grid-column: span 1;
+
+}
+
+.right-section {
+    background-color: burlywood;
+    /* height: 500px; */
+    grid-column: 2 / span 3;
+
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-image img {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+    color: white;
+}
+
+.designation {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.social-media {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media i {
+    padding: 10px;
+    color: white;
+}
+
+.skills h1{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.progress-bar {
+    border: 1px solid white;
+    height: 4px;
+    /* padding-bottom: 0.5rem; */
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+
