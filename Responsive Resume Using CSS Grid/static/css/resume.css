@@ -109,4 +109,12 @@
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 674px) {
+.main-content {
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.right-section {
+    grid-column: span 1;
+}
+}
