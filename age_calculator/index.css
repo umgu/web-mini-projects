@@ -91,4 +91,18 @@ span {
     margin: 10px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 560px) {
+    #content {
+        padding: 0.5rem;
+    }
+
+    select, input{
+        font-size: 1rem;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+}
     
