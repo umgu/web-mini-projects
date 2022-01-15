@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <section id="title-section">
+        <h1 class="text-center">Age Calculator</h1>
+        <p class="text-center">Calculate age from date of birth and current date</p>
+    </section>
+    <section id="content-section">
+        <div id="content">
+            <div id="date-of-birth"  class="full-width">
+                <h3>Date of Birth:</h3>
+                <select id="birth-month">
+                </select>
+                <select id="birth-date">
+                </select>
+                <input type="number" id="birth-year">
+            </div>
+            <div id="present-date" class="full-width">
+                <h3>Age at the date of:</h3>
+                <select id="current-month">
+                </select>
+                <select id="current-date">
+                </select>
+                <input type="number" id="current-year">
+            </div>
+            <div style="display: flex; flex-wrap: wrap;">
+                <button id="calculate-btn" class="btn">Calculate</button>
+                <button id="reset-btn" class="btn">Reset</button>
+            </div>
+            <div id="result-content">
+                <h3>Age result:</h3>
+                <section id="result">
+
+                </section>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
