@@ -1,0 +1,169 @@
+[33mcommit 9f6cd739190713d48b89bcdb3c20853182b647a4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: umgu <umeahgupta121998@gmail.com>
+Date:   Sat Feb 26 13:15:45 2022 +0530
+
+    Folder removed
+
+[1mdiff --git a/calculator-react/README.md b/calculator-react/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex 58beeac..0000000[m
+[1m--- a/calculator-react/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,70 +0,0 @@[m
+[31m-# Getting Started with Create React App[m
+[31m-[m
+[31m-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).[m
+[31m-[m
+[31m-## Available Scripts[m
+[31m-[m
+[31m-In the project directory, you can run:[m
+[31m-[m
+[31m-### `npm start`[m
+[31m-[m
+[31m-Runs the app in the development mode.\[m
+[31m-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.[m
+[31m-[m
+[31m-The page will reload when you make changes.\[m
+[31m-You may also see any lint errors in the console.[m
+[31m-[m
+[31m-### `npm test`[m
+[31m-[m
+[31m-Launches the test runner in the interactive watch mode.\[m
+[31m-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.[m
+[31m-[m
+[31m-### `npm run build`[m
+[31m-[m
+[31m-Builds the app for production to the `build` folder.\[m
+[31m-It correctly bundles React in production mode and optimizes the build for the best performance.[m
+[31m-[m
+[31m-The build is minified and the filenames include the hashes.\[m
+[31m-Your app is ready to be deployed![m
+[31m-[m
+[31m-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.[m
+[31m-[m
+[31m-### `npm run eject`[m
+[31m-[m
+[31m-**Note: this is a one-way operation. Once you `eject`, you can't go back!**[m
+[31m-[m
+[31m-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.[m
+[31m-[m
+[31m-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.[m
+[31m-[m
+[31m-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.[m
+[31m-[m
+[31m-## Learn More[m
+[31m-[m
+[31m-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).[m
+[31m-[m
+[31m-To learn React, check out the [React documentation](https://reactjs.org/).[m
+[31m-[m
+[31m-### Code Splitting[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)[m
+[31m-[m
+[31m-### Analyzing the Bundle Size[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)[m
+[31m-[m
+[31m-### Making a Progressive Web App[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)[m
+[31m-[m
+[31m-### Advanced Configuration[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)[m
+[31m-[m
+[31m-### Deployment[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)[m
+[31m-[m
+[31m-### `npm run build` fails to minify[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)[m
+[1mdiff --git a/calculator-react/package-lock.json b/calculator-react/package-lock.json[m
+[1mdeleted file mode 100644[m
+[1mindex c3fa765..0000000[m
+[1m--- a/calculator-react/package-lock.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,27421 +0,0 @@[m
+[31m-{[m
+[31m-  "name": "calculator-app",[m
+[31m-  "version": "0.1.0",[m
+[31m-  "lockfileVersion": 2,[m
+[31m-  "requires": true,[m
+[31m-  "packages": {[m
+[31m-    "": {[m
+[31m-      "name": "calculator-app",[m
+[31m-      "version": "0.1.0",[m
+[31m-      "dependencies": {[m
+[31m-        "@testing-library/jest-dom": "^5.16.2",[m
+[31m-        "@testing-library/react": "^12.1.2",[m
+[31m-        "@testing-library/user-event": "^13.5.0",[m
+[31m-        "react": "^17.0.2",[m
+[31m-        "react-dom": "^17.0.2",[m
+[31m-        "react-scripts": "5.0.0",[m
+[31m-        "web-vitals": "^2.1.4"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "node_modules/@ampproject/remapping": {[m
+[31m-      "version": "2.1.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.1.1.tgz",[m
+[31m-      "integrity": "sha512-Aolwjd7HSC2PyY0fDj/wA/EimQT4HfEnFYNp5s9CQlrdhyvWTtvZ5YzrUPu6R6/1jKiUlxu8bUhkdSnKHNAHMA==",[m
+[31m-      "dependencies": {[m
+[31m-        "@jridgewell/trace-mapping": "^0.3.0"[m
+[31m-      },[m
+[31m-      "engines": {[m
+[31m-        "node": ">=6.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "node_modules/@babel/code-frame": {[m
+[31m-      "version": "7.16.7",[m
+[31m-      "resolved": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.7.tgz",[m
+[31m-      "integrity": "sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg==",[m
+[31m-      "dependencies": {[m
+[31m-        "@babel/highlight": "^7.16.7"[m
+[31m-      },[m
+[31m-      "engines": {[m
+[31m-        "node": ">=6.9.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "node_modules/@babel/compat-data": {[m
+[31m-      "version": "7.17.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.17.0.tgz",[m
+[31m-      "integrity": "sha512-392byTlpGWXMv4FbyWw3sAZ/FrW/DrwqLGXpy0mbyNe9Taqv1mg9yON5/o0cnr8XYCkFTZbC1eV+c+LAROgrng==",[m
+[31m-      "engines": {[m
+[31m-        "node": ">=6.9.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "node_modules/@babel/core": {[m
+[31m-      "version": "7.17.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.17.2.tgz",[m
+[31m-      "integrity": "sha512-R3VH5G42VSDolRHyUO4V2cfag8WHcZyxdq5Z/m8Xyb92lW/Erm/6kM+XtRFGf3Mulre3mveni2NHfEUws8wSvw==",[m
+[31m-      "dependencies": {[m
+[31m-        "@ampproject/remapping": "^2.0.0",[m
+[31m-        "@babel/code-frame": "^7.16.7",[m
+[31m-        "@babel/generator": "^7.17.0",[m
+[31m-        "@babel/helper-compilation-targets": "^7.16.7",[m
+[31m-        "@babel/helper-module-transforms": "^7.16.7",[m
+[31m-        "@babel/helpers": "^7.17.2",[m
+[31m-        "@babel/parser": "^7.17.0",[m
+[31m-        "@babel/template": "^7.16.7",[m
+[31m-        "@babel/traverse": "^7.17.0",[m
+[31m-        "@babel/types": "^7.17.0",[m
+[31m-        "convert-source-map": "^1.7.0",[m
+[31m-        "debug": "^4.1.0",[m
+[31m-        "gensync": "^1.0.0-beta.2",[m
+[31m-        "json5": "^2.1.2",[m
+[31m-        "semver": "^6.3.0"[m
+[31m-      },[m
+[31m-      "engines": {[m
+[31m-        "node": ">=6.9.0"[m
+[31m-      },[m
+[31m-      "funding": {[m
+[31m-        "type": "opencollective",[m
+[31m-        "url": "https://opencollective.com/babel"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "node_modules/@babel/core/node_modules/semver": {[m
+[31m-      "version": "6.3.0",[m
+[3
