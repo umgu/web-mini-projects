@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-container {
+    background-color: rgb(126, 125, 125);
+    margin: 10px auto;
+}
+
+#seat-container{
+    background-color: rgb(243, 241, 147);
+    border: 2px solid black;
+}
+
+#quantity{
+    width: 100px;
+    margin-right: 5px ;
+}
+
+#book-btn{
+    width: 50px;
+    font-size: 15px;    
+    background-color: green;
+}
+
+/* Utility classes */
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p3 {
+    padding: 3px;
+}
+
+.seat{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.available {
+    background-color: lightseagreen;
+}
+
+.occupied {
+    background-color: rgb(214, 73, 73);
+}
+
+.box-layout{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
