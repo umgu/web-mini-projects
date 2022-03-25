@@ -1,17 +1,26 @@
+let totalSeatsInRows = [7, 7, 5, 6, 4, 1, 7, 7, 7, 7, 7, 3];
+let total = totalSeatsInRows.reduce((a,b) => a+b);
+let availableSeatsInRows = [...totalSeatsInRows];
+let totalAvailableSeats = totalSeatsInRows.reduce((a,b) => a+b);
+// console.log(totalAvailableSeats);
+
 document.addEventListener('DOMContentLoaded', () => {
     let seatContainer = document.getElementById("seat-container");
-    for (let seatNumber = 1; seatNumber <= 80; seatNumber++) {
-        let seat = document.createElement("span");
-        seat.className = "seat available";
-        seat.innerHTML = seatNumber;
-        seatContainer.appendChild(seat);
-    }
+    let seatNumber = 1;
+    availableSeatsInRows.forEach( (row) => {
+        let rowDiv = document.createElement("div");
+        for (let index=1; index <= row; index++) {
+            let seat = document.createElement("span");
+            seat.className = "seat available";
+            seat.innerHTML = seatNumber;
+            seatNumber++;
+            rowDiv.appendChild(seat);
+        }
+        seatContainer.appendChild(rowDiv);
+    })
     //binding the click event for booking button
     document.getElementById('book-btn').addEventListener('click', bookSeat)
 })
-
-let availableSeatsInRows = [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3];
-let totalAvailableSeats = 80;
 
 function bookSeat() {
     let quantityInput = document.getElementById('quantity');
@@ -21,6 +30,7 @@ function bookSeat() {
     else if (quantity > totalAvailableSeats) 
         alert(`${totalAvailableSeats} seats are available`);
     else {
+        debugger;
         let seatContainer = document.getElementById("seat-container");
         let seats = seatContainer.querySelectorAll('span');
         let allocatedSeats = [];
@@ -65,7 +75,8 @@ function bookSeat() {
 }
 
 function allocatSeats(rowIndex, seatIndex, seats, quantity, allocatedSeats) {
-    while (quantity > 0 && seatIndex < 80) {
+    debugger;
+    while (quantity > 0 && seatIndex < total) {
         if (seats[seatIndex].className === 'seat available') {
             seats[seatIndex].className = 'seat occupied';
             availableSeatsInRows[rowIndex]--;
@@ -78,5 +89,10 @@ function allocatSeats(rowIndex, seatIndex, seats, quantity, allocatedSeats) {
 }
 
 function findSeatindex(rowIndex, availableSeats) {
-    return (rowIndex === availableSeatsInRows.length - 1 ? 80 - availableSeats : rowIndex * 7 + 7 - availableSeats)
+    let index1 = totalSeatsInRows.slice(0,rowIndex)
+    if(index1.length) {
+        index1 = index1.reduce((a,b) => a+b);
+    }
+    let index2  = totalSeatsInRows[rowIndex] - availableSeats;
+    return index1+index2;
 }

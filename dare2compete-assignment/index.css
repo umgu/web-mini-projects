@@ -11,6 +11,11 @@
 #seat-container{
     background-color: rgb(243, 241, 147);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #quantity{
