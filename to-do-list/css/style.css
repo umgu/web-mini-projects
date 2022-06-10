@@ -1,0 +1,17 @@
+.my-table {
+	max-height: 245px;
+}
+
+.my-container {
+	height: 75vh;
+	width: 90%;
+}
+
+.my-shadow {
+	background-color: white;
+	border-radius: 1%;
+}
+
+body {
+	background-color: #f0f0f0;
+}
